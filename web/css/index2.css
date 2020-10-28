@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0;}
+#表单 tr {
+    display: inline-block;
+    font-size: 18px;
+    width: 16%;
+}
+#表单 {
+	width: 70%;
+	padding: 10px;
+	margin-left: 370px;
+
+}
+#表单 tr button {
+
+  border-radius: 4px;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  -webkit-box-shadow: 0px 10px 14px -7px #8da9cf;
+  -moz-box-shadow: 0px 10px 14px -7px #8da9cf;
+  box-shadow: 0px 10px 14px -7px #8da9cf;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #8da9cf;
+  padding: 4px 15px 4px 15px;
+  border: solid #8da9cf 1px;
+  text-decoration: none;
+}
+
+button:hover {
+  color: #ffffff;
+  background: #8da9cf;
+  text-decoration: none;
+}
+ input{
+        border: 1px solid #ccc; 
+        padding: 7px 0px;
+        border-radius: 3px; /*css3属性IE不支持*/
+        padding-left:5px; 
+        width: 100%;
+    }
+.biaoge2{
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #CCCCCC;
+}
+.biaoge2 td{
+	padding: 5px;
+	width: 20%;
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+	border-left: 0;
+}
+.meihua1{
+	border-top: 1px solid #8DA9CF;
+	height: 15px;
+	box-shadow: inset 0px 10px 16px -7px #8da9cf;
+}
+.ziti1{
+	font-size: 20px;
+}
+datalist option:hover{
+	background: #CCCCCC;
+}
+#结果 button{
+    text-shadow: 0 1px 0 white;
+    text-decoration: none;
+    color: black;
+    background-color: #ECECEC;
+    padding: 4px 15px;
+    
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    
+    background-image: -webkit-linear-gradient(90deg, #DBDBDB, #F2F2F2);
+    background-image: -moz-linear-gradient(90deg, #DBDBDB, #F2F2F2);
+    background-image: -ms-linear-gradient(90deg, #DBDBDB, #F2F2F2);
+    background-image: -o-linear-gradient(90deg, #DBDBDB, #F2F2F2);
+    background-image: linear-gradient(90deg, #DBDBDB, #F2F2F2);
+    
+    border: 1px solid #B3B3B3;
+    
+    -webkit-box-shadow: inset 0 0 2px 1px white, 0 2px 5px rgba(0,0,0,0.15), inset 0 -17px 0 rgba(0,0,0,0.06);
+    -moz-box-shadow: inset 0 0 2px 1px white, 0 2px 5px rgba(0,0,0,0.15), inset 0 -17px 0 rgba(0,0,0,0.06);
+    box-shadow: inset 0 0 2px 1px white, 0 2px 5px rgba(0,0,0,0.15), inset 0 -17px 0 rgba(0,0,0,0.06);
+}
+#结果 tr:hover{
+	background-image: -webkit-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: -moz-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: -ms-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: -o-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: linear-gradient(90deg, #E8E8E8, #F7F7F7);
+}
+#结果 button:hover{
+	background-image: -webkit-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: -moz-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: -ms-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: -o-linear-gradient(90deg, #E8E8E8, #F7F7F7);
+    background-image: linear-gradient(90deg, #E8E8E8, #F7F7F7);
+}
+.feiru{
+	transform:translate(60px,0px);
+	opacity:0;
+	animation:feiru 0.8s forwards;
+	}
+@keyframes feiru{
+	0%{
+		transform:translate(0px,10px);
+		opacity:0;
+		}
+	100%{
+		transform:translate(0px,0px);
+		opacity:1;
+		}
+}
+
+/*tbody td button a:link {background:#3F3F3F;color:#3F3F3F;} !* 未被访问的链接 *!*/
+/*tbody td button a:visited {background:#3F3F3F;color: #3F3F3F} !* 已被访问的链接 *!*/
+/*tbody td button a:hover {background:#3F3F3F;text-transform:uppercase;} !* 鼠标指针移动到链接上 *!*/
+/*tbody td button a:active {background:#3F3F3F;} !* 正在被点击的链接 *!*/
+.tijiao{
+    width: 800px;
+}

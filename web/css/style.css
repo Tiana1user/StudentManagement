@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+.w{
+	width:100%;
+	min-height:800px;
+	display:flex;
+	}
+.l{
+	width:260px;
+	background-color:#2f4050;
+	}
+.r{
+	flex:10;
+	background-color:#fff;
+	}
+ul,li{ list-style:none; margin:0px; padding:0px;}
+.daohang-heading{
+	padding:15px;
+	color:#fff;
+	background-color:#233646;
+	background-image:url(../images/header-profile-skin-2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	}	
+.daohang-body{
+	/*padding:15px;*/
+	}	
+.daohang-body a{
+	color:#a7b1c2;
+	}	
+.daohang-body > li > a {
+	display:block;
+	color:#a7b1c2;
+	font-weight:bold;
+	padding:14px 20px 14px 25px;
+	}
+.daohang-body > li > a i {
+	margin-right:8px;
+	}
+.daohang-body-lv2 > li > a {
+	display:block;
+	color:#a7b1c2;
+	padding:7px 10px 7px 52px;
+	}
+	
+	
+.feiru{
+	transform:translate(0px,20px);
+	opacity:0;
+	animation:feiru 0.8s forwards;
+	background-color: #FFFFFF;
+	}
+@keyframes feiru{
+	0%{
+		transform:translate(0px,20px);
+		opacity:0;
+		}
+	100%{
+		transform:translate(0px,0px);
+		opacity:1;
+		}
+}
+	
+	
+	
+	
+.caidan{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	background-color:#f4f4f4;
+	}
+	
+.dbLiv1{
+	position:relative;
+	}
+.daohang-body-lv2{
+	display: none;
+	}
+.click{
+	border-left: 4px solid #19aa8d;
+    background: #293846;
+}
+.zhai{
+	width:60px;
+	}
+
+.zhai .xs{
+	display:none;
+	}
+.bk{
+	width:40%;
+	}
+.zhai .bk{
+	width:100%;
+	}
+.zhai .daohang-body-lv2{
+	position:absolute;
+	top:0px;
+	left:56px;
+	background: #293846;
+	}
+.zhai .daohang-body-lv2 > li > a {
+	min-width:100px;
+	padding:7px 10px 7px 10px;
+	}
+
+
+.ibox{
+	background-color:#FFFFFF;
+	}
+.ibox-head{
+	padding:10px 15px;
+	border-top:4px solid #ccc;
+	border-bottom:1px solid #ccc;
+	
+	}
+.ibox-head-t{
+	font-size:18px;
+	font-weight:bold;
+	}
+.ibox-body{
+	padding:15px;
+	}
+.sq{
+	cursor:pointer;
+	transition:all 0.8s;
+	}
+.xz{
+	transform:rotate(180deg);
+	}
+	
+
+table.dataintable {
+  margin-top:15px;
+  border-collapse:collapse;
+  border:1px solid #aaa;
+  width:80%;
+}
+table.dataintable th {
+  vertical-align:baseline;
+  padding:5px 15px 5px 6px;
+  background-color:#3F3F3F;
+  border:1px solid #3F3F3F;
+  text-align:left;
+  color:#fff;
+}
+table.dataintable td {
+  vertical-align:text-top;
+  padding:6px 15px 6px 6px;
+  border:1px solid #aaa;
+}
+table.dataintable tr:nth-child(odd) {
+  background-color:#F5F5F5;
+}
+table.dataintable tr:nth-child(even) {
+  background-color:#fff;
+}
